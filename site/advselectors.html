@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Advanced Selectors</title>
+	<style>
+		li{
+			margin:5px;
+		}
+		a{
+			padding-left: 22px;
+			text-decoration: none;
+		}
+
+		a[href$=".org"]{
+			background: #ffff00;
+		}
+		a[href$=".edu"]{
+			background: #ff00ff;
+
+		}
+		a[href$=".gov"]{
+			background: #00ff00;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="http://www.umich.edu">UOM</a></li>
+		<li><a href="http://www.kent.edu">KSU</a></li>
+		<li><a href="http://www.wikipedia.org">Wikipedia</a></li>
+		<li><a href="http://www.unicef.org">UNOCEF</a></li>
+		<li><a href="http://nasa.gov">NASA</a></li>	
+		<li><a href="http://www.pitt.edu">UOP</a></li>
+		<li><a href="http://www.smiletrain.org">st</a></li>
+		<li><a href="http://www.nps.gov">nps</a></li>	
+	</ul>
+
+</body>
+</html>
